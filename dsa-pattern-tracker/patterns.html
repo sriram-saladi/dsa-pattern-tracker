@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSA Patterns - All Patterns</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-content">
+    <div class="topbar-left">
+      <button class="back-btn" onclick="location.href='index.html'">
+        ← Back
+      </button>
+      <h2 class="topbar-title">DSA Patterns</h2>
+    </div>
+    <div class="topbar-right">
+      <div class="progress-summary" id="progressSummary">
+        <span class="progress-text">0/0 completed</span>
+      </div>
+      <button class="theme-toggle" id="themeToggle" title="Toggle theme">
+        🌙
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="search-box">
+    <input 
+      type="text" 
+      id="searchInput" 
+      placeholder="Search patterns..." 
+      class="search-input"
+    />
+    <span class="search-icon">🔍</span>
+  </div>
+  
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="not-started">Not Started</button>
+    <button class="filter-btn" data-filter="in-progress">In Progress</button>
+    <button class="filter-btn" data-filter="completed">Completed</button>
+  </div>
+</div>
+
+<main class="grid" id="patternGrid"></main>
+
+<!-- IMPORTANT: data.js MUST come before patterns.js -->
+<script src="data.js"></script>
+<script src="patterns.js"></script>
+</body>
+</html>
