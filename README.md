@@ -12,7 +12,7 @@ A beautiful, interactive web app to master Data Structures & Algorithms patterns
 - Responsive design
 
 ## 🌐 Live Demo
-[View Live](https://sriram-saladi.github.io/dsa-pattern-tracker/)
+Live Site:[View Live](https://sriram-saladi.github.io/dsa-pattern-tracker/)
 
 ## 🛠️ Technologies
 - HTML5
