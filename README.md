@@ -1,23 +1,29 @@
-# DSA Pattern Tracker
+# 🚀 DSA Pattern Tracker
 
-A beginner-friendly web application to understand and track common
-data structure and algorithm patterns used in coding interviews.
+A beautiful, interactive web app to master Data Structures & Algorithms patterns for coding interviews.
 
-## Features
-- Pattern explanations
-- Example input and output
-- Progress tracking using LocalStorage
+## ✨ Features
+- 12 essential DSA patterns
+- 80+ curated LeetCode problems
+- Difficulty tags (Easy/Medium/Hard)
+- Progress tracking with localStorage
+- Dark/Light theme toggle
+- Search and filter functionality
+- Responsive design
 
-## Tech Stack
-- HTML
-- CSS
-- JavaScript (Vanilla)
+## 🌐 Live Demo
+[View Live](https://sriram-saladi.github.io/dsa-pattern-tracker/)
 
-## Motivation
-While preparing for Google-style interviews, I realized recognizing
-problem-solving patterns was harder than writing code. This project
-helps structure learning by focusing on pattern recognition.
+## 🛠️ Technologies
+- HTML5
+- CSS3 (with animations)
+- Vanilla JavaScript
+- LocalStorage for persistence
 
-## Future Improvements
-- More patterns
-- Dark mode
+## 📦 Usage
+1. Clone the repository
+2. Open `index.html` in your browser
+3. Start tracking your DSA interview prep!
+
+## 📄 License
+MIT License - feel free to use for your interview prep!
